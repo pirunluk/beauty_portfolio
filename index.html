@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
 </head>
 
@@ -19,7 +20,7 @@
             <ul>
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">ABOUT</a></li>
-                <li><a href="#">WORK</a></li>
+                <li><a href="#">PROJECT</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
 
@@ -30,15 +31,24 @@
             <p>This is my official portfolio website to shows all
                 <br>details and work experience web development
             </p>
-            <a href="#">DOWNLOAD CV</a>
+            <a href="#" id="btnDownload">DOWNLOAD CV</a>
         </div>
 
         <div class="images">
-            <img src="/img/blob-haikei.png" class="shape">
-            <img src="/img/puppy.png" class="me">
+            <!-- <img src="/img/blob-haikei.png" class="shape"> -->
+            <img src="/img/me.png" class="me">
         </div>
 
     </div>
+
+    <!-- <script>
+        $(document).ready(function(){
+            $('#btnDownload').click(function(e){
+                e.preventDefault();
+                window.location.href = '27_Pirunluk(Maprang)-CV.pdf';
+            });
+        });
+    </script> -->
 
 </body>
 
